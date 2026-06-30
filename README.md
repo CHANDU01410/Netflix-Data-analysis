@@ -1,38 +1,43 @@
-## Netflix Movies and TV Shows Data Analysis
+# Netflix Movies and TV Shows Data Analysis
 
 ## Project Overview
+This project performs Exploratory Data Analysis (EDA) on the Netflix Movies and TV Shows dataset to identify trends, content distribution, genre popularity, ratings, and business insights using Python.
 
-This project performs Exploratory Data Analysis (EDA) on the Netflix Movies and TV Shows dataset obtained from Kaggle. The objective is to identify content trends, ratings distribution, genre popularity, and business insights using Python.
-
-## Dataset
-
-Netflix Movies and TV Shows Dataset from Kaggle.
+## Dataset Source
+Netflix Movies and TV Shows Dataset from Kaggle:  
+https://www.kaggle.com/datasets/shivamb/netflix-shows
 
 ## Tools and Libraries Used
-
-* Python
-* Pandas
-* Matplotlib
-* Seaborn
-* Google Colab
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Google Colab
 
 ## Project Workflow
-
-1. Data Loading and Inspection
+1. Load and Inspect the Dataset
 2. Data Cleaning and Preprocessing
 3. Exploratory Data Analysis (EDA)
 4. Data Visualization
 5. Insights Report
 6. Conclusion
 
-## Key Findings
+## Visualizations
+- Movies vs TV Shows (Bar Chart)
+- Content Added Over Years (Line Chart)
+- Release Year Distribution (Histogram)
+- Movies vs TV Shows Share (Pie Chart)
+- Top 10 Countries (Bar Chart)
+- Ratings Distribution (Bar Chart)
+- Top 10 Genres (Bar Chart)
 
-1. Movies dominate Netflix content compared to TV Shows.
-2. The United States contributes the largest amount of content.
-3. Netflix content additions increased significantly after 2015.
-4. TV-MA and TV-14 are the most common ratings.
-5. Drama and International Movies are among the most popular genres.
+## Key Findings
+- Movies make up a larger portion of Netflix's catalog than TV Shows.
+- The United States contributes the highest number of titles.
+- Netflix experienced significant content growth after 2015.
+- TV-MA and TV-14 are the most common content ratings.
+- Drama, International Movies, and Comedy are among the most popular genres.
 
 ## Conclusion
-
-The analysis provides valuable insights into Netflix's content strategy, audience preferences, genre distribution, and growth trends. The findings can help understand how Netflix has expanded its content library over time.
+The analysis provides valuable insights into Netflix's content strategy, audience preferences, and platform growth. The findings highlight how Netflix has expanded its global content library while focusing on diverse genres and mature audience content.
